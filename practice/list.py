@@ -1,0 +1,15 @@
+test = [1,2,3,4,5]
+print(len(test))
+x =[4,5,6]
+test.append(x)
+print(test)
+test.extend(x)
+print(test)
+test.insert(len(test),0)
+print(test)
+print(len('kjkjlj'))
+test.remove(x)
+print(test)
+print(test.count(4))
+print(sorted(test,key = None,reverse = False))
+print('My name is suman das')
