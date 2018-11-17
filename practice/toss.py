@@ -1,7 +1,7 @@
 import random
 head = 0
 tail = 0
-total = 900000
+total = 9000
 for i in range (total):
     toss = random.randint(1,2)
     if(toss == 1):
