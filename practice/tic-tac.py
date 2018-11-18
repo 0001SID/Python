@@ -33,10 +33,10 @@ for j in range(9):
             os._exit(0)
     if board[str(1)]==board[str(5)]==board[str(9)]:
         print('\t\t\tPlayer',player,'Win\n\t\t\t  Game Over')
-        os._exit(0)  
+        os._exit(0)
     if board[str(3)]==board[str(5)]==board[str(7)]:
         print('\t\t\tPlayer',player,'Win\n\t\t\t  Game Over')
-        os._exit(0) 
+        os._exit(0)
     if turn == 'X':
         turn = 'O'
     else:
